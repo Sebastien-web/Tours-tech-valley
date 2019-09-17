@@ -22,11 +22,7 @@ header img {
 }
 
 .navbar{
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
-    background-color:  #293133;
-    font-weight: bold;
+    
 }
 
 nav a{
@@ -46,9 +42,11 @@ nav a{
     width: 100%;
 }
 
-@media screen and (max-width: 512px) {
-    nav {
-        display: flex;
-        flex-direction: column; 
-    }
+ul {
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background-color:  #293133;
+    font-weight: bold;
 }
