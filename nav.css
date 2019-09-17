@@ -1,0 +1,54 @@
+/* Color Theme Swatches in Hex */
+.Detalle-de-Madrid-1-hex { color: #8C0327; }
+.Detalle-de-Madrid-2-hex { color: #590219; }
+.Detalle-de-Madrid-3-hex { color: #D977A5; }
+.Detalle-de-Madrid-4-hex { color: #A6786D; }
+.Detalle-de-Madrid-5-hex { color: #0D0D0D; }
+/* Font family Oswald sans serif titre nav, work sans-sans serif paragraphe+contenu */
+
+body {
+    margin: 0px;
+}
+
+nav {
+    font-family: 'Oswald', sans-serif;
+}
+
+header img {
+    display: flex;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+}
+
+.navbar{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background-color:  #293133;
+    font-weight: bold;
+}
+
+nav a{
+    display: flex;
+    text-decoration: none;
+    color:#35D2DD;
+    padding: 20px;
+}
+
+.navbar a:hover {
+    background-color: #35D2DD;
+    text-decoration: underline;
+    color: #293133;
+}
+
+.headerbackground{
+    width: 100%;
+}
+
+@media screen and (max-width: 512px) {
+    nav {
+        display: flex;
+        flex-direction: column; 
+    }
+}
