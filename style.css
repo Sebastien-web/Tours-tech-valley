@@ -11,6 +11,10 @@ html {
     font-family: 'Oswald', sans-serif;
     color: #343d46;
 }
+.desktop_title {
+    display: flex;
+    background: #E6E6E6;
+}
 nav{
     margin: 10px;
     display: none;
@@ -18,16 +22,17 @@ nav{
 }
 
 .logo{
-    margin: 10px;
     display: flex;
     height: 100%;
-    width : 50%;
+    width: 30%;
+    padding: 10px;
 }
 
 h1{
     width : 100%;
-    text-align: left;
-    font-size: 25px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
 }
 h2{
     
@@ -37,13 +42,11 @@ h2{
 .category{
     position:relative;
     margin-top: 10px;
-    margin-bottom: 10px;
     height: 250px;
 }
 
 .category2{
     position:relative;
-    margin-top: 10px;
     margin-bottom: 10px;
     height: 250px;
 }
@@ -82,6 +85,12 @@ article{
     .bloc_article{
         display: flex;
         width: 100%;
+    }
+
+    h1{
+        display: flex;
+        justify-content: center;
+        font-size: 3em;
     }
 
     .article_desktop{
