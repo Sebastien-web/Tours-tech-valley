@@ -16,7 +16,6 @@
 /* header */
 
 nav{
-    margin: 10px;
     display: none;
  }
  .logo{
@@ -25,6 +24,10 @@ nav{
     height: 100%;
     width : 50%;
  }
+.headerbackground{
+    display: none;
+
+}
 
 /*body*/
 h2{
@@ -33,7 +36,7 @@ h2{
 
 hr{
     width: 50%;
-    text-align: center;
+    margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -61,20 +64,103 @@ article img{
 }
 
 /* footer */ 
-.contact2{
+ .contact{
     display: flex;
-    background-color: grey;
+    background-color: #E6E6E6;
     justify-content: space-around;
     height: 40px;
-    padding: 0;
+    padding: 0;   
     align-items: center;
- }
- .reseau{
-    width: 15px;
-    height: 15px;
- }
- 
+}
 
+.reseaux{
+    width: 30px;
+    height: 30px;
+}
+
+
+@media screen and (min-width: 700px) {
+    .bloc_article{
+        display: flex;
+        font-family: 'Oswald', sans-serif;
+    }
+
+    article{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .inverse{
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav{
+        display: block;
+    }
+
+    .desktop_title{
+        display: flex;
+    }
+
+    .logo{
+        margin: 10px;
+        display: flex;
+        height: 70%;
+        width : 50%;
+     }
+
+     h1{
+         display: flex;
+         align-items: center;
+     }
+
+
+    header img {
+        display: flex;
+        width: 100%;
+        margin: 0px;
+        text-align: center;
+    }
+
+
+
+    nav a{
+        display: flex;
+        text-decoration: none;
+        color:#35D2DD;
+        padding: 20px;
+    }
+
+    .navbar a:hover {
+        background-color: #35D2DD;
+        text-decoration: underline;
+        color: #293133;
+    }
+
+    .headerbackground{
+        display: block;
+        width: 100%;
+        position: absolute;
+        z-index: -1;
+        object-fit: cover;
+    }
+
+    ul {
+        list-style-type: none;
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        background-color:  #293133;
+        font-weight: bold;
+        padding: 0px;
+    }
+    .contact{
+        height: 100px;
+    }
+
+
+}
 
 
 

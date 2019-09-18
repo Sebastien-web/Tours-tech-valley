@@ -38,7 +38,22 @@ h2{
     position:relative;
     margin-top: 10px;
     margin-bottom: 10px;
+    height: 250px;
 }
+
+.category2{
+    position:relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 250px;
+}
+
+article{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .category-image{
     width: 100%;
     height: 100%;
@@ -60,4 +75,35 @@ h2{
 .reseaux{
     width: 30px;
     height: 30px;
+}
+
+@media screen and (min-width: 700px){
+
+    .bloc_article{
+        display: flex;
+        width: 100%;
+    }
+
+    .article_desktop{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+
+    .category2{
+        width: 50%;
+        height: 505px;
+        margin-top: 5px;
+        margin-right: 5px;
+    }
+
+    .category{
+        margin-top: 5px;
+        margin-bottom: 0px;
+    }
+
+    .contact{
+        height: 100px;
+    }
+
 }
