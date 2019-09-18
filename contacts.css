@@ -1,3 +1,38 @@
+*{
+    margin: 0px;
+    list-style: none;
+ }
+
+ html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+    margin: 0px;
+    list-style: none;
+    font-family: 'Oswald', sans-serif;
+    color: #343d46;
+    }
+
+/* header */
+
+h1{
+    width : 100%;
+    text-align: left;
+    font-size: 25px;
+}
+
+nav{
+    margin: 10px;
+    display: none;
+ }
+ .logo{
+    margin: 10px;
+    display: flex;
+    height: 100%;
+    width : 50%;
+ }
+
 form h2{
     text-align: left;
     padding: 10px;
@@ -41,4 +76,25 @@ select, input, textarea {
     height: 30%;
     width: 30%;
 }
+
+.logo{
+    display: flex;
+    height: 100%;
+    width : 50%;
+}
+
+.contact{
+    display: flex;
+    background-color: #E6E6E6;
+    justify-content: space-around;
+    height: 40px;
+    padding: 0;   
+    align-items: center;
+}
+
+.reseaux{
+    width: 30px;
+    height: 30px;
+}
+
 
