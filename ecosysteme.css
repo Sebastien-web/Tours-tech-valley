@@ -21,19 +21,27 @@
 
 h1{
     width : 100%;
-    text-align: left;
-    font-size: 25px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
 }
 
 nav{
     display: none;
  }
- .logo{
-    margin: 10px;
+
+ .desktop_title {
+    display: flex;
+    background: #E6E6E6;
+}
+
+.logo{
     display: flex;
     height: 100%;
-    width : 50%;
- }
+    width: 30%;
+    padding: 10px;
+}
+
 .headerbackground{
     display: none;
 
