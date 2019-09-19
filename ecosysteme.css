@@ -50,6 +50,13 @@ nav{
 /*body*/
 h2{
     font-family: 'Oswald', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+
+h3{
+    padding-top: 10px;
 }
 
 hr{
@@ -64,11 +71,11 @@ article{
 }
 
 article img{
-    max-width: 500px;
-    max-height: 500px;
-    min-width: 100px;
-    min-height: 100px;
+    width: 100px;
+    height: 100px;
     margin: auto;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .contenu_article {
@@ -101,6 +108,7 @@ article img{
     .bloc_article{
         display: flex;
         font-family: 'Oswald', sans-serif;
+        padding-bottom: 10px;
     }
 
     article{
@@ -169,6 +177,18 @@ article img{
     }
     .contact{
         height: 100px;
+        background-color:  #293133;
+        font-weight: bold;
+    }
+
+    .contact li{
+        color: #35D2DD;
+        font-size: 30px;
+    }
+
+    .reseaux{
+        width: 60px;
+        height: 60px;
     }
 
 

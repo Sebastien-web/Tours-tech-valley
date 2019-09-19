@@ -113,6 +113,18 @@ article{
 
     .contact{
         height: 100px;
+        background-color:  #293133;
+        font-weight: bold;
+    }
+
+    .contact li{
+        color: #35D2DD;
+        font-size: 30px;
+    }
+
+    .reseaux{
+        width: 60px;
+        height: 60px;
     }
 
 }
