@@ -97,6 +97,17 @@ select, input, textarea {
     width: 30px;
     height: 30px;
 }
+@media screen and (min-width: 700px) {
+    .contact{
+        height: 100px;
+        background-color:  #293133;
+        font-weight: bold;
+    }
+
+    .contact li{
+        color: #35D2DD;
+        font-size: 30px;
+    }
 
 .infos {
     display: flex;

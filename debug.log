@@ -1,0 +1,23 @@
+[0919/173008.249:ERROR:process_info.cc(359)] UncheckedAllocate
+[0919/173008.308:ERROR:process_reader_win.cc(151)] SuspendThread: Accès refusé. (0x5)
+[0919/173008.308:ERROR:process_reader_win.cc(151)] SuspendThread: Accès refusé. (0x5)
+[0919/173008.308:ERROR:process_reader_win.cc(151)] SuspendThread: Accès refusé. (0x5)
+[0919/173008.309:ERROR:process_reader_win.cc(151)] SuspendThread: Accès refusé. (0x5)
+[0919/173008.309:ERROR:process_reader_win.cc(151)] SuspendThread: Accès refusé. (0x5)
+[0919/173008.309:ERROR:process_reader_win.cc(151)] SuspendThread: Accès refusé. (0x5)
+[0919/173008.309:ERROR:process_reader_win.cc(151)] SuspendThread: Accès refusé. (0x5)
+[0919/173008.309:ERROR:process_reader_win.cc(151)] SuspendThread: Accès refusé. (0x5)
+[0919/173008.337:ERROR:process_reader_win.cc(123)] NtOpenThread: Spécification d’un ID de client non valide. (0xc000000b)
+[0919/173008.337:ERROR:process_reader_win.cc(123)] NtOpenThread: Spécification d’un ID de client non valide. (0xc000000b)
+[0919/173008.337:ERROR:process_reader_win.cc(123)] NtOpenThread: Spécification d’un ID de client non valide. (0xc000000b)
+[0919/173008.337:ERROR:process_reader_win.cc(123)] NtOpenThread: Spécification d’un ID de client non valide. (0xc000000b)
+[0919/173008.337:ERROR:process_reader_win.cc(123)] NtOpenThread: Spécification d’un ID de client non valide. (0xc000000b)
+[0919/173008.337:ERROR:process_reader_win.cc(123)] NtOpenThread: Spécification d’un ID de client non valide. (0xc000000b)
+[0919/173008.337:ERROR:process_reader_win.cc(123)] NtOpenThread: Spécification d’un ID de client non valide. (0xc000000b)
+[0919/173008.338:ERROR:exception_snapshot_win.cc(98)] thread ID 9952 not found in process
+[0919/173008.338:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: Tentative d’accès à un processus en cours d’arrêt. (0xc000010a)
+[0919/173010.984:ERROR:process_info.cc(359)] UncheckedAllocate
+[0919/173011.426:ERROR:process_info.cc(359)] UncheckedAllocate
+[0919/173011.485:ERROR:process_info.cc(359)] UncheckedAllocate
+[0919/173012.244:ERROR:process_info.cc(359)] UncheckedAllocate
+[0919/173013.666:ERROR:process_info.cc(359)] UncheckedAllocate

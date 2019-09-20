@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <link rel="stylesheet" href="normalize.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="numerique.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+    <title>Tours Tech Valley</title>
+</head>
+
+<body>
+    <header>
+        <img class="headerbackground" src="Images/banniere/mame-desktop.jpg" alt="backgroundarticle">
+        <div class="desktop_title">
+            <img class="logo" src="Images/Image-acceuil/logo_1.png">
+            <h1>Tours Tech Valley</h1>
+        </div>
+        <nav class="navbar">
+            <button class="nav__burger"><img src="Images/Image-acceuil/Hamburger_icon.png"></button>
+            <ul class="nav__list">
+                    <li><a href="#accueil">ACCUEIL</a></li>
+                    <li><a href="#econum">ECOSYSTEME DU NUMERIQUE</a></li>
+                    <li><a href="#dynaeco">DYNAMISME ECONOMIQUE</a></li>
+                    <li><a href="#qualvie">QUALITE DE VIE</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h2>Les entreprise à Tours</h2>
+        <div class="bloc_article">
+            <article>
+                <img src="images/entreprise/capgemini.png">
+                <div class="contenu_article">
+                    <h3>Cap gemini : </h3>
+                    <p>Capgemini est un leader mondial du conseil, des services informatiques et de la transformation numérique. A la pointe de l’innovation, le Groupe aide ses clients à saisir l’ensemble des opportunités que présentent le cloud, le digital et les plateformes.</p>
+                    <a href="">4bis Rue Emile Zola, 37000 Tours</a>
+                </div>
+            </article>
+            <hr />
+            <article class="inverse">
+                <img src="images/logo_ecosysteme/apside.png">
+                <div class="contenu_article">
+                    <h3>Apside TOP </h3>
+                    <p>Depuis 40 ans, le Groupe Apside collabore aux projets informatiques et scientifiques des grands groupes français et européens.</p>
+                    <a href="">12 Rue Fabienne Landy, 37700 Saint-Pierre-des-Corps</a>
+                </div>
+            </article>
+            <hr />
+            <article>
+                <img src="images/logo_ecosysteme/umanis.png">
+                <div class="contenu_article">
+                    <h3>Umanis</h3>
+                    <p>Depuis plus de 25 ans, Umanis est le leader français en Data, Digital, Business Solutions et Industrialisation.</p>
+                    <a href="">18 Rue du Pont de l'Arche, 37550 Saint-Avertin</a>
+                </div>
+            </article>
+        </div>
+    </section>
+    <section>
+        <h2>Les structure à Tours</h2>
+        <div class="bloc_article">
+            <article>
+                <img src="images/logo_ecosysteme/MAME.jpg">
+                <div class="contenu_article">
+                    <h3>La MAME</h3>
+                    <p>Mame, cité de 	la création et de l’innovation : aux jeunes entreprises innovantes et à de grands groupes nationaux qui y installent des bureaux. Tiers lieu de connexion dans l'écosystème French Tech-Loire Valley.</p>
+                    <a href="">49 Boulevard Preuilly, 37000 Tours</a>
+                </div>
+            </article>
+            <article class="inverse">
+                <img src="images/logo_ecosysteme/startinbox.jpg">
+                <div class="contenu_article">
+                    <h3>Pepinieres (S)tart’inbox</h3>
+                    <p>Pepinieres (S)tart’inbox crée un environnement favorable à l’esprit d’entreprise sur le territoire. D'une surface de 1200 m² , elle est raccordée à la fibre et desservies par le tramway.
+                       </p>
+                    <a href="">30 Rue André Theuriet, 37000 Tours</a>
+                </div>
+            </article>
+            <article>
+                <img src="images/logo_ecosysteme/paloaltours.png">
+                <div class="contenu_article">
+                    <h3>Paloaltours</h3>
+                    <p>Palaoltours est une startup associative d’entreprises innovantes dans le domaine des technologies numériques.</p>
+                    <a href="">LE HQ Tours - 1, impasse du palais, 37000 Tours</a>
+                </div>
+            </article>
+        </div>
+    </section>
+    <footer>
+        <ul class="contact">
+            <li>Contact Us</li>
+            <a href="https://www.facebook.com/mametours/"><img class="reseaux"
+                    src="images/Images reseaux sociaux/Facebook.png"></a>
+            <a href="https://www.instagram.com/mame.tours/?hl=fr"><img class="reseaux"
+                    src="images/Images reseaux sociaux/Instagram.png"></a>
+            <a href="https://twitter.com/mametours"><img class="reseaux"
+                    src="images/Images reseaux sociaux/Twitter.png"></a>
+            <li>Annuaire</li>
+        </ul>
+    </footer>
+    <script>
+            document.addEventListener('DOMContentLoaded', () => {
+        document.querySelector('.nav__burger').addEventListener('click', (e) => {
+            const $burger = e.currentTarget;
+            const $list = $burger.parentElement.querySelector('.nav__list');
+            $burger.classList.toggle('nav__burger--active');
+            $list.classList.toggle('nav__list--active');
+        });
+    })
+</script>
+</body>
+
+</html>
