@@ -187,7 +187,7 @@ article{
         font-weight: bold;
     }
 
-    .contact li{
+    .contact a{
         color: #35D2DD;
         font-size: 30px;
     }
@@ -200,5 +200,7 @@ article{
     footer{
         height: 100%;
     }
+
+  
 
 }

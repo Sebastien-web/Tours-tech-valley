@@ -56,6 +56,9 @@ nav{
     background: #E6E6E6;
 }
 
+a{
+    text-decoration: none;
+}
 
 .logo{
     display: flex;
@@ -233,7 +236,7 @@ article img{
         font-weight: bold;
     }
 
-    .contact li{
+    .contact a{
         color: #35D2DD;
         font-size: 30px;
     }

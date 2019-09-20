@@ -64,6 +64,10 @@ nav{
     padding: 10px;
 }
 
+a{
+    text-decoration: none;
+}
+
 h1{
     width : 100%;
     font-size: 15px;
@@ -233,7 +237,7 @@ article img{
         font-weight: bold;
     }
 
-    .contact li{
+    .contact a{
         color: #35D2DD;
         font-size: 30px;
     }

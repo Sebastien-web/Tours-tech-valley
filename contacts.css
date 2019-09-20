@@ -16,23 +16,62 @@
 
 /* header */
 
-h1{
-    width : 100%;
-    text-align: left;
-    font-size: 25px;
+.desktop_title {
+    display: flex;
+    background: #E6E6E6;
 }
 
-nav{
-    margin: 10px;
+header{
+    display: flex;
+    height: 60px;
+    background: #E6E6E6;
+}
+.nav__list{
     display: none;
- }
- .logo{
-    margin: 10px;
+}
+.nav__burger img{
+    height: 50px;
+    width: 50px;
+}
+.nav__list--active{
+    display: block;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    background: #E6E6E6;
+    z-index: 1;
+    top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+.nav__burger{
+    background: #E6E6E6;
+}
+
+
+.logo{
     display: flex;
     height: 100%;
-    width : 50%;
- }
+    width: 30%;
+    padding: 10px;
+}
 
+h1{
+    width : 100%;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.headerbackground{
+    display: none;
+
+}
 form h2{
     text-align: left;
     padding: 10px;
@@ -97,17 +136,10 @@ select, input, textarea {
     width: 30px;
     height: 30px;
 }
-@media screen and (min-width: 700px) {
-    .contact{
-        height: 100px;
-        background-color:  #293133;
-        font-weight: bold;
-    }
 
-    .contact li{
-        color: #35D2DD;
-        font-size: 30px;
-    }
+a{
+    text-decoration: none;
+}
 
 .infos {
     display: flex;
@@ -115,7 +147,7 @@ select, input, textarea {
     align-items: center;
     text-align: center;
     margin: 15px;
-    border: 1px solid #E50044;
+    border: 4px solid #e6e6e6;
     border-radius: 20px;
     
     
@@ -137,4 +169,97 @@ select, input, textarea {
         display: flex;
         justify-content: center;
     }
+
+    header{
+        height: 100%;
+    }
+    .nav__burger{
+        display: none;
+    }
+
+    .navbar{
+        width: 100%;
+    }
+    .nav__list{
+        display: block;
+        margin-top: 300px;
+        list-style-type: none;
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        background-color:  #293133;
+        font-weight: bold;
+    }
+
+    .desktop_title{
+        display: flex;
+    }
+
+    .logo{
+        display: none;
+     }
+
+     h1{
+        display: none;
+     }
+
+
+
+    nav a{
+        display: flex;
+        text-decoration: none;
+        color:#35D2DD;
+        padding: 20px;
+    }
+
+    .logo_desktop{
+        display: none;
+    }
+
+    .navbar a:hover {
+        background-color: #35D2DD;
+        text-decoration: underline;
+        color: #293133;
+    }
+
+    .headerbackground{
+        display: block;
+        width: 100%;
+        position: absolute;
+        z-index: 0;
+        object-fit: cover;
+        height: 300px;
+    }
+
+    ul {
+        list-style-type: none;
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        background-color:  #293133;
+        font-weight: bold;
+        padding: 0px;
+    }
+    .contact{
+        height: 100px;
+        background-color:  #293133;
+        font-weight: bold;
+    }
+
+    .contact a{
+        color: #35D2DD;
+        font-size: 30px;
+    }
+
+    .reseaux{
+        width: 60px;
+        height: 60px;
+    }
+
+    form h2{
+        text-align: left;
+        padding: 10px;
+        border-top: 40px solid #293133;
+    }
+
 }
