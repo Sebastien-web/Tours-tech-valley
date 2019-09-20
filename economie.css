@@ -152,6 +152,13 @@ article img{
         flex-direction: column;
     }
 
+    article img{
+        width: 200px;
+        height: 200px;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
     .inverse{
         display: flex;
         flex-direction: column;

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <link rel="stylesheet" href="normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="Tours-tech-valley">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="accueil.css">
+    <title>Tours Tech Valley</title>
+</head>
+
+<body>
+    <header>
+        <div class="desktop_title">
+            <img class="logo" src="Images/Image-acceuil/logo_1.png">
+            <h1>Tours Tech Valley</h1>
+        </div>
+        <nav class="navbar">
+            <button class="nav__burger"><img src="Images/Image-acceuil/Hamburger_icon.png"></button>
+            <ul class="nav__list">
+                <li><a href="index.html">ACCUEIL</a></li>
+                <li><a href="ecosysteme.html">ECOSYSTEME DU NUMERIQUE</a></li>
+                <li><a href="#dynaeco">DYNAMISME ECONOMIQUE</a></li>
+                <li><a href="#qualvie">QUALITE DE VIE</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="bloc_article">
+        <article class="category2"><img src="Images/Image-acceuil/MAME.jpg" class="category-image" title="lorum">
+            <h2><a href="ecosysteme.html"> Le numérique</a></h2>
+        </article>
+        <div class="article_desktop">
+            <article class="category"><img src='Images/Image-acceuil/tours.jpg' class="category-image" title="lorum">
+                <h2>L'économie</h2>
+            </article>
+            <article class="category"><img src="Images/Image-acceuil/La-vie.jpg" class="category-image" title="lorum">
+                <h2>La vie à Tours</h2>
+            </article>
+        </div>
+    </section>
+    <footer>
+        <ul class="contact">
+            <li>Contact Us</li>
+            <a href="https://www.votre_url.com"></a><img class="reseaux"
+                    src="Images/Images reseaux sociaux/Facebook.png"></a>
+            <a href="https://www.votre_url.com"><img class="reseaux"
+                    src="Images/Images reseaux sociaux/Instagram.png"></a>
+            <a href="https://www.votre_url.com"><img class="reseaux"
+                    src="Images/Images reseaux sociaux/Twitter.png"></a>
+            <li>Annuaire</li>
+        </ul>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            document.querySelector('.nav__burger').addEventListener('click', (e) => {
+                const $burger = e.currentTarget;
+                const $list = $burger.parentElement.querySelector('.nav__list');
+                $burger.classList.toggle('nav__burger--active');
+                $list.classList.toggle('nav__list--active');
+            });
+        })
+    </script>
+</body>
+
+</html>

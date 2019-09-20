@@ -202,6 +202,13 @@ article img{
         color: #293133;
     }
 
+    article img{
+        width: 200px;
+        height: 200px;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
     .headerbackground{
         display: block;
         width: 100%;
