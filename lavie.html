@@ -15,17 +15,17 @@
     <header>
         <img class="headerbackground" src="Images/banniere/tours.jpg" alt="backgroundarticle">
         <div class="desktop_title">
-            <img class="logo" src="Images/Image-acceuil/logo_1.png">
+            <img class="logo" src="Images/Image-acceuil/logo_1.png" alt="logo">
             <h1>Tours Tech Valley</h1>
         </div>
         <nav class="navbar">
-            <button class="nav__burger"><img src="Images/Image-acceuil/Hamburger_icon.png"></button>
+            <button class="nav__burger"><img src="Images/Image-acceuil/Hamburger_icon.png" alt="Menu"></button>
             <ul class="nav__list">
-                    <li><a href="accueil.html">ACCUEIL</a></li>
-                    <li><a href="numerique.html">ECOSYSTEME DU NUMERIQUE</a></li>
-                    <li><a href="economie.html">DYNAMISME ECONOMIQUE</a></li>
-                    <li><a href="lavie.html">QUALITE DE VIE</a></li>
-                    <li><a href="contacts.html">CONTACT</a></li>
+                <li><a href="accueil.html">ACCUEIL</a></li>
+                <li><a href="numerique.html">ECOSYSTEME DU NUMERIQUE</a></li>
+                <li><a href="economie.html">DYNAMISME ECONOMIQUE</a></li>
+                <li><a href="lavie.html">QUALITE DE VIE</a></li>
+                <li><a href="contacts.html">CONTACT</a></li>
             </ul>
         </nav>
     </header>
@@ -33,52 +33,59 @@
         <h2>Qualité de vie</h2>
         <div class="bloc_article">
             <article>
-                <img src="images/logo_ecosysteme3/la_vie.jpg">
+                <img src="images/logo_ecosysteme3/la_vie.jpg" alt="vie">
                 <div class="contenu_article">
                     <h3>La vie à Tours</h3>
-                    <p>Nichée en plein cœur de la Vallée de la Loire, Tours sait allier vieilles pierres et high-tech, afin de passer aisément de châteaux mondialement connus aux entreprises du numérique les plus performantes.</p>
+                    <p>Nichée en plein cœur de la Vallée de la Loire, Tours sait allier vieilles pierres et high-tech,
+                        afin de passer aisément de châteaux mondialement connus aux entreprises du numérique les plus
+                        performantes.</p>
                 </div>
             </article>
             <hr />
             <article class="inverse">
-                <img src="images/logo_ecosysteme3/tram.jpg">
+                <img src="images/logo_ecosysteme3/tram.jpg" alt="tram">
                 <div class="contenu_article">
                     <h3>Transports</h3>
-                    <p>Au milieu d’un réseau autoroutier entre Paris, Bordeaux, Nantes et Bourges. À 1h00 en train de Paris et 2h00 de Nantes. Un réseau Tram+Bus desservant régulièrement la ville et son agglomération. Son aéroport et des vols réguliers vers Londres, Dublin, Marrakech, Porto et Marseille.</p>
+                    <p>Au milieu d’un réseau autoroutier entre Paris, Bordeaux, Nantes et Bourges. À 1h00 en train de
+                        Paris et 2h00 de Nantes. Un réseau Tram+Bus desservant régulièrement la ville et son
+                        agglomération. Son aéroport et des vols réguliers vers Londres, Dublin, Marrakech, Porto et
+                        Marseille.</p>
                 </div>
             </article>
             <hr />
             <article>
-                <img src="images/logo_ecosysteme3/loisir.png">
+                <img src="images/logo_ecosysteme3/loisir.png" alt="loisir">
                 <div class="contenu_article">
                     <h3>Loisirs</h3>
-                    <p>En territoire littéraire et gastronome, vous saurez apprécier un livre de Balzac tout en dégustant une tartine chaude fromage de chèvre de Sainte-Maure-De-Touraine accompagné de son verre de vin de Chinon. À proximité du vieux mûrier de la place Plumereau, sinon rien!</p>
+                    <p>En territoire littéraire et gastronome, vous saurez apprécier un livre de Balzac tout en
+                        dégustant une tartine chaude fromage de chèvre de Sainte-Maure-De-Touraine accompagné de son
+                        verre de vin de Chinon. À proximité du vieux mûrier de la place Plumereau, sinon rien!</p>
                 </div>
             </article>
         </div>
     </section>
     <footer>
-            <ul class="contact">
-                    <li><a href="contacts.html">Contact Us</a></li>
-                    <li><a href="https://www.votre_url.com"></a><img class="reseaux"
-                            src="Images/Images_reseaux_sociaux/Facebook.png"></li>
-                    <li><a href="https://www.votre_url.com"></a><img class="reseaux"
-                            src="Images/Images_reseaux_sociaux/Instagram.png"></li>
-                    <li><a href="https://www.votre_url.com"></a><img class="reseaux"
-                            src="Images/Images_reseaux_sociaux/Twitter.png"></li>
-                    <li><a href="contacts.html">Annuaire</a></li>
-                </ul>
+        <ul class="contact">
+            <li><a href="contacts.html">Contact Us</a></li>
+            <li><a href="https://facebook.com/mametours/"></a><img class="reseaux"
+                    src="Images/Images_reseaux_sociaux/Facebook.png" alt="facebook"></li>
+            <li><a href="https://www.instagram.com/mame.tours/?hl=fr"></a><img class="reseaux"
+                    src="Images/Images_reseaux_sociaux/Instagram.png" alt="intagram"></li>
+            <li><a href="https://twitter.com/mametours"></a><img class="reseaux"
+                    src="Images/Images_reseaux_sociaux/Twitter.png" alt="twitter"></li>
+            <li><a href="contacts.html">Annuaire</a></li>
+        </ul>
     </footer>
     <script>
-            document.addEventListener('DOMContentLoaded', () => {
-        document.querySelector('.nav__burger').addEventListener('click', (e) => {
-            const $burger = e.currentTarget;
-            const $list = $burger.parentElement.querySelector('.nav__list');
-            $burger.classList.toggle('nav__burger--active');
-            $list.classList.toggle('nav__list--active');
-        });
-    })
-</script>
+        document.addEventListener('DOMContentLoaded', () => {
+            document.querySelector('.nav__burger').addEventListener('click', (e) => {
+                const $burger = e.currentTarget;
+                const $list = $burger.parentElement.querySelector('.nav__list');
+                $burger.classList.toggle('nav__burger--active');
+                $list.classList.toggle('nav__list--active');
+            });
+        })
+    </script>
 </body>
 
 </html>
