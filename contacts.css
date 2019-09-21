@@ -182,7 +182,7 @@ a{
     }
     .nav__list{
         display: block;
-        margin-top: 300px;
+        margin-top: 30vh;
         list-style-type: none;
         display: flex;
         width: 100%;
@@ -228,7 +228,7 @@ a{
         position: absolute;
         z-index: 0;
         object-fit: cover;
-        height: 300px;
+        height: 30vh;
     }
 
     ul {
@@ -241,7 +241,7 @@ a{
         padding: 0px;
     }
     .contact{
-        height: 100px;
+        height: 15vh;
         background-color:  #293133;
         font-weight: bold;
     }

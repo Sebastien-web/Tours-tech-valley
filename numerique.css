@@ -161,10 +161,12 @@ article img{
     }
 
     article img{
-        width: 200px;
-        height: 200px;
+        width: 20vh;
+        height: 20vh;
         margin-left: 20%;
         margin-right: 20%;
+        margin-bottom: 10%;
+        margin-top: 10%;
     }
 
     .navbar{
@@ -172,7 +174,7 @@ article img{
     }
     .nav__list{
         display: block;
-        margin-top: 300px;
+        margin-top: 30vh;
         list-style-type: none;
         display: flex;
         width: 100%;
@@ -218,7 +220,11 @@ article img{
         position: absolute;
         z-index: 0;
         object-fit: cover;
-        height: 300px;
+        height: 30vh;
+    }
+
+    .contenu_article{
+        height: 20vh;
     }
 
     ul {
@@ -231,7 +237,7 @@ article img{
         padding: 0px;
     }
     .contact{
-        height: 100px;
+        height: 15vh;
         background-color:  #293133;
         font-weight: bold;
     }
