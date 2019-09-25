@@ -18,16 +18,9 @@
             <img class="logo" src="Images/Image-acceuil/logo_1.png" alt="logo">
             <h1>Tours Tech Valley</h1>
         </div>
-        <nav class="navbar">
-            <button class="nav__burger"><img src="Images/Image-acceuil/Hamburger_icon.png" alt="Menu"></button>
-            <ul class="nav__list">
-                <li><a href="accueil.html">ACCUEIL</a></li>
-                <li><a href="numerique.html">ECOSYSTEME DU NUMERIQUE</a></li>
-                <li><a href="economie.html">DYNAMISME ECONOMIQUE</a></li>
-                <li><a href="lavie.html">QUALITE DE VIE</a></li>
-                <li><a href="contacts.html">CONTACT</a></li>
-            </ul>
-        </nav>
+        <?php
+        include 'scriptnav.php'
+        ?>
     </header>
     <section>
         <h2>Qualité de vie</h2>
@@ -64,28 +57,12 @@
             </article>
         </div>
     </section>
-    <footer>
-        <ul class="contact">
-            <li><a href="contacts.html">Contact Us</a></li>
-            <li><a href="https://facebook.com/mametours/"></a><img class="reseaux"
-                    src="Images/Images_reseaux_sociaux/Facebook.png" alt="facebook"></li>
-            <li><a href="https://www.instagram.com/mame.tours/?hl=fr"></a><img class="reseaux"
-                    src="Images/Images_reseaux_sociaux/Instagram.png" alt="intagram"></li>
-            <li><a href="https://twitter.com/mametours"></a><img class="reseaux"
-                    src="Images/Images_reseaux_sociaux/Twitter.png" alt="twitter"></li>
-            <li><a href="contacts.html">Annuaire</a></li>
-        </ul>
-    </footer>
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            document.querySelector('.nav__burger').addEventListener('click', (e) => {
-                const $burger = e.currentTarget;
-                const $list = $burger.parentElement.querySelector('.nav__list');
-                $burger.classList.toggle('nav__burger--active');
-                $list.classList.toggle('nav__list--active');
-            });
-        })
-    </script>
+    <?php
+    include 'footer.php'
+    ?>
+    <?php
+    include 'scriptburger.php'
+    ?>
 </body>
 
 </html>

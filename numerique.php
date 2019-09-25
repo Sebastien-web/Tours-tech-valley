@@ -18,16 +18,9 @@
             <img class="logo" src="Images/Image-acceuil/logo_1.png" alt="logo">
             <h1>Tours Tech Valley</h1>
         </div>
-        <nav class="navbar">
-            <button class="nav__burger"><img src="Images/Image-acceuil/Hamburger_icon.png" alt="Menu"></button>
-            <ul class="nav__list">
-                <li><a href="accueil.html">ACCUEIL</a></li>
-                <li><a href="numerique.html">ECOSYSTEME DU NUMERIQUE</a></li>
-                <li><a href="economie.html">DYNAMISME ECONOMIQUE</a></li>
-                <li><a href="lavie.html">QUALITE DE VIE</a></li>
-                <li><a href="contacts.html">CONTACT</a></li>
-            </ul>
-        </nav>
+        <?php
+        include 'scriptnav.php'
+        ?>
     </header>
     <section>
         <h2>Les entreprise à Tours</h2>
@@ -39,7 +32,7 @@
                     <p>Capgemini est un leader mondial du conseil, des services informatiques et de la transformation
                         numérique. A la pointe de l’innovation, le Groupe aide ses clients à saisir l’ensemble des
                         opportunités que présentent le cloud, le digital et les plateformes.</p>
-                    <a href="contacts.html">4bis Rue Emile Zola, 37000 Tours</a>
+                    <a href="contacts.php">4bis Rue Emile Zola, 37000 Tours</a>
                 </div>
             </article>
             <hr />
@@ -49,7 +42,7 @@
                     <h3>Apside TOP </h3>
                     <p>Depuis 40 ans, le Groupe Apside collabore aux projets informatiques et scientifiques des grands
                         groupes français et européens.</p>
-                    <a href="contacts.html">12 Rue Fabienne Landy, 37700 Saint-Pierre-des-Corps</a>
+                    <a href="contacts.php">12 Rue Fabienne Landy, 37700 Saint-Pierre-des-Corps</a>
                 </div>
             </article>
             <hr />
@@ -59,7 +52,7 @@
                     <h3>Umanis</h3>
                     <p>Depuis plus de 25 ans, Umanis est le leader français en Data, Digital, Business Solutions et
                         Industrialisation.</p>
-                    <a href="contacts.html">18 Rue du Pont de l'Arche, 37550 Saint-Avertin</a>
+                    <a href="contacts.php">18 Rue du Pont de l'Arche, 37550 Saint-Avertin</a>
                 </div>
             </article>
         </div>
@@ -74,7 +67,7 @@
                     <p>Mame, cité de la création et de l’innovation : aux jeunes entreprises innovantes et à de grands
                         groupes nationaux qui y installent des bureaux. Tiers lieu de connexion dans l'écosystème French
                         Tech-Loire Valley.</p>
-                    <a href="contacts.html">49 Boulevard Preuilly, 37000 Tours</a>
+                    <a href="contacts.php">49 Boulevard Preuilly, 37000 Tours</a>
                 </div>
             </article>
             <article class="inverse">
@@ -85,7 +78,7 @@
                         territoire. D'une surface de 1200 m² , elle est raccordée à la fibre et desservies par le
                         tramway.
                     </p>
-                    <a href="contacts.html">30 Rue André Theuriet, 37000 Tours</a>
+                    <a href="contacts.php">30 Rue André Theuriet, 37000 Tours</a>
                 </div>
             </article>
             <article>
@@ -94,33 +87,17 @@
                     <h3>Paloaltours</h3>
                     <p>Palaoltours est une startup associative d’entreprises innovantes dans le domaine des technologies
                         numériques.</p>
-                    <a href="contacts.html">LE HQ Tours - 1, impasse du palais, 37000 Tours</a>
+                    <a href="contacts.php">LE HQ Tours - 1, impasse du palais, 37000 Tours</a>
                 </div>
             </article>
         </div>
     </section>
-    <footer>
-        <ul class="contact">
-            <li><a href="contacts.html">Contact Us</a></li>
-            <li><a href="https://facebook.com/mametours/"></a><img class="reseaux"
-                    src="Images/Images_reseaux_sociaux/Facebook.png" alt="facebook"></li>
-            <li><a href="https://www.instagram.com/mame.tours/?hl=fr"></a><img class="reseaux"
-                    src="Images/Images_reseaux_sociaux/Instagram.png" alt="intagram"></li>
-            <li><a href="https://twitter.com/mametours"></a><img class="reseaux"
-                    src="Images/Images_reseaux_sociaux/Twitter.png" alt="twitter"></li>
-            <li><a href="contacts.html">Annuaire</a></li>
-        </ul>
-    </footer>
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            document.querySelector('.nav__burger').addEventListener('click', (e) => {
-                const $burger = e.currentTarget;
-                const $list = $burger.parentElement.querySelector('.nav__list');
-                $burger.classList.toggle('nav__burger--active');
-                $list.classList.toggle('nav__list--active');
-            });
-        })
-    </script>
+    <?php
+    include 'footer.php'
+    ?>
+    <?php
+    include 'scriptburger.php'
+    ?>
 </body>
 
 </html>
