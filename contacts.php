@@ -1,3 +1,43 @@
+<?php
+$emailError = '';
+$adressError = '';
+$textAreaError = '';
+$email = '';
+$adress = '';
+$textArea = '';
+
+if (isset($_POST['isFormSubmitted'])) 
+{
+    $email = $_POST['email'];
+    $adress = $_POST['adress'];
+    $textArea = $_POST['textArea'];
+    if (empty($_POST['email']) === true)
+    {
+        $emailError = '<br/> Erreur le champ ne peut pas être vide';
+    }
+    $emailError = filter_var($email, FILTER_VALIDATE_EMAIL);
+    if (empty($_POST['adress']) === true)
+    {
+        $adressError  = '<br/> Erreur le champ ne peut pas être vide';
+    }
+    if (empty($_POST['textArea']) === true)
+    {
+        $textAreaError = '</br> Erreur le champ ne peut pas être vide';
+    }
+    if
+    (
+        empty($email) === false
+        && empty($adress) === false
+        && empty($textArea) === false
+    )
+    {
+        header('Location:succes.php');
+        exit();
+    }
+    
+}
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -21,11 +61,11 @@
         <nav class="navbar">
             <button class="nav__burger"><img src="Images/Image-acceuil/Hamburger_icon.png" alt="Menu"></button>
             <ul class="nav__list">
-                <li><a href="accueil.html">ACCUEIL</a></li>
+                <li><a href="index.html">ACCUEIL</a></li>
                 <li><a href="economie.html">ECOSYSTEME DU NUMERIQUE</a></li>
                 <li><a href="economie.html">DYNAMISME ECONOMIQUE</a></li>
                 <li><a href="lavie.html">QUALITE DE VIE</a></li>
-                <li><a href="contacts.html">CONTACT</a></li>
+                <li><a href="contacts.php">CONTACT</a></li>
             </ul>
         </nav>
     </header>
@@ -153,17 +193,20 @@
             </article>
         </section>
     </div>
-    <form>
+    <form method="POST" action="contacts.php">
         <h2>Contact us</h2>
-        <input type="email" placeholder="@">
-        <input type="text" placeholder="&#8962;">
-        <select name="#">
+        <input type="email" id="email" name="email" placeholder="@" value = "<?php echo $email; ?>">
+            <?php echo $emailError; ?>
+        <input type="text" id="adress" name="adress" placeholder="&#8962;" value = "<?php echo $adress; ?>">
+            <?php echo $adressError; ?>
+        <select name="select">
             <option value="motif1">Demande d'information</option>
             <option value="motif2">Demande de contact</option>
             <option value="motif3">Demande de partenariat</option>
         </select>
-        <textarea placeholder="Your message"></textarea>
-        <input type="submit" value="Envoyer le formulaire">
+        <textarea placeholder="Your message" name='textArea'></textarea>
+        <input type="submit" value="Envoyer le formulaire" name="isFormSubmitted" value = "<?php echo $textArea; ?>">
+        <?php echo $textAreaError; ?>
     </form>
     <footer>
         <ul class="contact">
