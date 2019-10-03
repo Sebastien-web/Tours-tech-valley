@@ -15,7 +15,9 @@ if (isset($_POST['isFormSubmitted']))
     {
         $emailError = '<br/> Erreur le champ ne peut pas être vide';
     }
-    $emailError = filter_var($email, FILTER_VALIDATE_EMAIL);
+    if (filter_var($email, FILTER_VALIDATE_EMAIL)===false){
+        $emailError='email non valide';
+    };
     if (empty($_POST['adress']) === true)
     {
         $adressError  = '<br/> Erreur le champ ne peut pas être vide';
