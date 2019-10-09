@@ -1,0 +1,198 @@
+[33mcommit 22b7492e526849dce1293ca79cec4e26cd633a69[m[33m ([m[1;36mHEAD -> [m[1;32mfeatureRomainFormulaire[m[33m)[m
+Author: Romain Bardoux <r.bardouxx@hotmail.fr>
+Date:   Thu Oct 3 15:26:46 2019 +0200
+
+    ajout d'un formulaire fonctionnel qui renvoi sur une autre page php succes
+
+[33mcommit 1bfdcd922280fca14d4475eeeecec2b4be539822[m[33m ([m[1;31morigin/featureseb[m[33m, [m[1;31morigin/dev[m[33m, [m[1;32mdev[m[33m)[m
+Author: Antoine Ribeiro <antoine.ribeiro37@gmail.com>
+Date:   Sat Sep 21 10:37:13 2019 +0200
+
+    debug responsive
+
+[33mcommit 1ab5b27b3921c88c4155dae57ad5db7ec98d8a46[m
+Author: Antoine Ribeiro <antoine.ribeiro37@gmail.com>
+Date:   Fri Sep 20 12:00:25 2019 +0200
+
+     add alt img
+
+[33mcommit 7296a463b4ddd613c33f7cb78cee12e251e2c7b3[m
+Author: Antoine Ribeiro <antoine.ribeiro37@gmail.com>
+Date:   Fri Sep 20 11:49:37 2019 +0200
+
+    creation lien page
+
+[33mcommit fa9a15061d3c9d9f8619d8678a3694007affa75d[m
+Merge: 52b38f4 bf3dd9e
+Author: Antoine Ribeiro <antoine.ribeiro37@gmail.com>
+Date:   Fri Sep 20 10:56:37 2019 +0200
+
+    Merge branch 'dev' of https://github.com/Mozzaco/Tours-tech-valley into dev
+
+[33mcommit 52b38f426a0a5ab556ce09a54768c1be7f489fc1[m
+Author: Antoine Ribeiro <antoine.ribeiro37@gmail.com>
+Date:   Fri Sep 20 10:50:46 2019 +0200
+
+    add navbar index
+
+[33mcommit bf3dd9ee618574b35d744c29c700c9825bc09ebe[m
+Merge: e5c4002 36dec62
+Author: Etienne Chevalier <youpigod@hotmail.fr>
+Date:   Fri Sep 20 10:15:09 2019 +0200
+
+    Merge branch 'dev' of https://github.com/Mozzaco/Tours-tech-valley into dev
+
+[33mcommit e5c40028f03f108dc83dda948fb1316c16944390[m
+Author: Etienne Chevalier <youpigod@hotmail.fr>
+Date:   Fri Sep 20 10:12:37 2019 +0200
+
+    modif contact + lien images
+
+[33mcommit 36dec624e24c772675fbaa9d64da1ec280e5d5cb[m
+Author: Romain Bardoux <r.bardouxx@hotmail.fr>
+Date:   Fri Sep 20 10:06:49 2019 +0200
+
+    modif banniere centré les images destock ajout liens reseaux
+
+[33mcommit 24a506c3acc115339f1cffe10b9e79f6ee265951[m
+Merge: 44aac8e b0aec53
+Author: Antoine Ribeiro <antoine.ribeiro37@gmail.com>
+Date:   Thu Sep 19 17:27:09 2019 +0200
+
+    Merge branch 'dev' of https://github.com/Mozzaco/Tours-tech-valley into dev
+
+[33mcommit 44aac8e458106c2ed644f247852d0bb85ea6da50[m
+Author: Antoine Ribeiro <antoine.ribeiro37@gmail.com>
+Date:   Thu Sep 19 17:27:01 2019 +0200
+
+    add some link
+
+[33mcommit b0aec5342dde70fb56d0f547d816770c9ad26937[m
+Author: Romain Bardoux <r.bardouxx@hotmail.fr>
+Date:   Thu Sep 19 17:25:13 2019 +0200
+
+    ajout image et différente page de ecosysteme
+
+[33mcommit b9d586eb48afc31c9fd10e3d1f25e031681c4048[m
+Merge: f39c9df 8bc1200
+Author: Antoine Ribeiro <antoine.ribeiro37@gmail.com>
+Date:   Thu Sep 19 16:31:49 2019 +0200
+
+    Merge branch 'dev' of https://github.com/Mozzaco/Tours-tech-valley into dev
+
+[33mcommit f39c9df04836c335321fd59f0cda2a951d399ee1[m
+Author: Antoine Ribeiro <antoine.ribeiro37@gmail.com>
+Date:   Thu Sep 19 16:31:17 2019 +0200
+
+    add burger menu
+
+[33mcommit 8bc1200db3197ea481ca203a22b358a74dc07bf6[m
+Author: Romain Bardoux <r.bardouxx@hotmail.fr>
+Date:   Thu Sep 19 16:18:58 2019 +0200
+
+    footer complete, et contenu ecosysteme
+
+[33mcommit a90b57d578edda38820c5c6bacd399bc0ecfbf53[m
+Author: Antoine Ribeiro <antoine.ribeiro37@gmail.com>
+Date:   Thu Sep 19 11:48:26 2019 +0200
+
+    Alignement titre logo
+
+[33mcommit 7990a87747e20f214107bd407c9a4423b302d6cf[m
+Author: Antoine Ribeiro <antoine.ribeiro37@gmail.com>
+Date:   Wed Sep 18 17:48:03 2019 +0200
+
+    debug navbar
+
+[33mcommit 1614931f84b298185d0ca04dac62ee818d5b4bb0[m
+Merge: 07c15c2 dbe6797
+Author: Antoine Ribeiro <antoine.ribeiro37@gmail.com>
+Date:   Wed Sep 18 17:16:35 2019 +0200
+
+    Merge branch 'dev' of https://github.com/Mozzaco/Tours-tech-valley into dev
+
+[33mcommit 07c15c20e5fe40ce276391272412f4f1b9f9afb4[m
+Author: Antoine Ribeiro <antoine.ribeiro37@gmail.com>
+Date:   Wed Sep 18 17:16:24 2019 +0200
+
+    correction fautes, amelio header
+
+[33mcommit dbe67973260da9b8bf1859755b3fdc503aec82cb[m
+Author: Romain Bardoux <r.bardouxx@hotmail.fr>
+Date:   Wed Sep 18 16:54:59 2019 +0200
+
+    fix bug contact css
+
+[33mcommit caf8ddca9b689b48f30d6634e5e24b02b9e8e949[m
+Merge: 16502ea 97ec083
+Author: Antoine Ribeiro <antoine.ribeiro37@gmail.com>
+Date:   Wed Sep 18 16:34:49 2019 +0200
+
+    Merge branch 'dev' of https://github.com/Mozzaco/Tours-tech-valley into dev
+
+[33mcommit 16502ea9b52b7755ed344025ea6c7348fe40b1ac[m
+Author: Antoine Ribeiro <antoine.ribeiro37@gmail.com>
+Date:   Wed Sep 18 16:29:52 2019 +0200
+
+    v2
+
+[33mcommit 97ec083baadee6effc811e82d7c7e7a7ef1eeaab[m
+Author: Romain Bardoux <r.bardouxx@hotmail.fr>
+Date:   Wed Sep 18 16:21:26 2019 +0200
+
+    css contact et armony le reste
+
+[33mcommit c21d68f7cb629e87bd4bdac171062034725ed2f5[m
+Author: Antoine Ribeiro <antoine.ribeiro37@gmail.com>
+Date:   Tue Sep 17 17:55:08 2019 +0200
+
+    delete margin
+
+[33mcommit 3b9513f86ba6a0e82677079315e05d3af21e7c3a[m
+Author: Antoine Ribeiro <antoine.ribeiro37@gmail.com>
+Date:   Tue Sep 17 17:46:43 2019 +0200
+
+    add title
+
+[33mcommit e6623cb7655b6970c6e7ca4257a819500f3edae0[m
+Author: Antoine Ribeiro <antoine.ribeiro37@gmail.com>
+Date:   Tue Sep 17 16:55:03 2019 +0200
+
+    modif footer
+
+[33mcommit 555791b22fbd80c94adf183fb061df13c1f4bbb4[m
+Author: Antoine Ribeiro <antoine.ribeiro37@gmail.com>
+Date:   Tue Sep 17 16:52:57 2019 +0200
+
+    modif img footer and add normalize in index.html
+
+[33mcommit 118dd438227d4a27fd7aca111056236aade65f5b[m
+Merge: 101c8cd 51b7551
+Author: Antoine Ribeiro <antoine.ribeiro37@gmail.com>
+Date:   Tue Sep 17 16:41:46 2019 +0200
+
+    Merge branch 'feature_antoine' into dev
+
+[33mcommit 51b7551cac3f3849b55569e157a74ff503c54595[m[33m ([m[1;31morigin/feature_antoine[m[33m)[m
+Author: Antoine Ribeiro <antoine.ribeiro37@gmail.com>
+Date:   Tue Sep 17 16:37:25 2019 +0200
+
+    add ecosysteme and normalize page
+
+[33mcommit 101c8cd14075b1d84592d6e27b158102b25b75f6[m
+Author: Romain Bardoux <r.bardouxx@hotmail.fr>
+Date:   Tue Sep 17 16:23:42 2019 +0200
+
+    dossier changé
+
+[33mcommit d05bf1838738b0656c9bd45d46ded50f55ba4af2[m
+Author: Romain Bardoux <r.bardouxx@hotmail.fr>
+Date:   Tue Sep 17 16:13:50 2019 +0200
+
+    création projet
+
+[33mcommit e35870081f79f72831206a1e769125d731f53f66[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m
+Author: Antoine <53839871+Mozzaco@users.noreply.github.com>
+Date:   Tue Sep 17 10:50:25 2019 +0200
+
+    Initial commit

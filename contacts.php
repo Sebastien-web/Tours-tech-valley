@@ -1,4 +1,25 @@
 <?php
+
+// Connection
+require_once('connect.php');
+$pdo = new \PDO(DSN, USER, PASS);
+
+// Injection SQL
+if (isset($_POST['isFormSubmitted']))
+{
+    $email = trim($_POST['email']);
+    $adress = trim($_POST['adress']);
+    $textArea = trim($_POST['textArea']);
+    $query = "INSERT INTO infoCollectes (email, adress, textArea) VALUES (:email, :adress, :textArea)";
+    echo $query;
+    $newVar = $pdo->prepare($query);
+    $newVar->bindValue(':email', $email);
+    $newVar->bindValue(':adress', $adress);
+    $newVar->bindValue(':textArea', $textArea);
+    $newVar->execute();
+}
+
+
 $emailError = '';
 $adressError = '';
 $textAreaError = '';
@@ -35,8 +56,7 @@ if (isset($_POST['isFormSubmitted']))
     {
         header('Location:succes.php');
         exit();
-    }
-    
+    } 
 }
 ?>
 
@@ -206,9 +226,9 @@ if (isset($_POST['isFormSubmitted']))
             <option value="motif2">Demande de contact</option>
             <option value="motif3">Demande de partenariat</option>
         </select>
-        <textarea placeholder="Your message" name='textArea'></textarea>
-        <input type="submit" value="Envoyer le formulaire" name="isFormSubmitted" value = "<?php echo $textArea; ?>">
+        <textarea placeholder="Your message" name='textArea' value ="<?php echo $textArea; ?>"></textarea>
         <?php echo $textAreaError; ?>
+        <button type="submit" name="isFormSubmitted" >Soumettre le formulaire wesh</button>
     </form>
     <footer>
         <ul class="contact">
